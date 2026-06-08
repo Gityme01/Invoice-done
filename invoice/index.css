@@ -1,0 +1,55 @@
+body {
+    width: 80%;
+    margin: auto;
+}
+h1 {
+    text-align: center;
+    font-size: 4em;
+}
+form {
+    background-color: rgb(235, 243, 246);
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+}
+form div {
+    text-align: center;
+}
+form input{
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 1em;
+}
+.button {
+    background-color: brown;
+    color: aliceblue;
+    transition-duration:0.4s;
+}
+.button:hover {
+    background-color: white;
+    color: brown;
+    border-color: brown;
+}
+.result {
+    background-color: rgb(53, 70, 77);
+    color: white;
+    padding: 1px 10px 1px;
+}
+#result, #dis-result{
+    font-size: 2em;
+    background-color: whitesmoke;
+    padding: 10px;
+    color: brown;
+}
+.dis-result{
+    background-color: rgb(33, 70, 77);
+    color: white;
+    padding: 1px 10px 1px;
+}
+.discount-container {
+    margin-top: 10px;
+}
