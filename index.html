@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Invoice adjustment</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  
+  <body>
+    <h1>FINAL INVOICE CALCULATION</h1>
+      <form>
+        <div>
+          <label for="">Total</label><br>
+          <input class="total" type="number" placeholder="TOTAL">
+        </div>
+        <div>
+          <label for="">Grand Total</label><br>
+          <input type="number">
+        </div>
+        <div>
+          <input type="button" value="RESULTS" onclick="cal2()" class="button">
+        </div>    
+      </form>
+      
+      <div class="result">
+        <button onclick="cal()">
+          The total
+        </button>
+          <h2>ANSWER</h2>
+          <p id="result"></p>
+        </div>
+        
+      </div>
+
+      <div class="discount-container">
+        <form>
+          <div>
+            <label for="">Total</label><br>
+            <input class="dis-given" type="number" placeholder="Discount">
+          </div>
+          <div>
+            <label for="">Grand Total</label><br>
+            <input class="dis-subTotal" type="number">
+          </div>
+          <div>
+            <input type="button" value="RESULTS" onclick="cal()" class="button">
+          </div>    
+        </form>
+      </div>
+      <div class="dis-result">
+          <h2>ANSWER</h2>
+          <p id="dis-result"></p>
+        </div>
+
+      <script src="index.js">
+          
+      </script>
+  </body>
+</html>
